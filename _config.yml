@@ -2,7 +2,16 @@
 # http://simiki.org/docs/configuration.html
 
 url: 
-title: 
-keywords: 
+title: fredia的wiki
+keywords: technology
 description: 
-author: 
+author: fredia
+
+root: /wiki
+
+deploy:
+        - type: git
+          remote: origin
+          branch: gh-pages
+
+
